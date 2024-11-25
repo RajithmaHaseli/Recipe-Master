@@ -1,0 +1,111 @@
+/* Unique styling for the CommentApp */
+
+/* General styles for the app */
+.AppRecipeUnique {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Style for the comment input box */
+.comment-input-box {
+  padding: 8px;
+  margin: 10px 0;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.submit-comment-button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.submit-comment-button:hover {
+  background-color: #45a049;
+}
+
+.submit-comment-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Style for individual comments */
+.comment-box {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.comment-text {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.comment-actions-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Style for the reply input box */
+.reply-input-box {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.replies-container {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* Style for individual replies */
+.reply-box {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.reply-text {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.reply-actions-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Style for the comment edit input */
+.edit-comment-input-box {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Style for edit comment actions */
+.edit-comment-actions-container {
+  display: flex;
+  justify-content: space-between;
+}
